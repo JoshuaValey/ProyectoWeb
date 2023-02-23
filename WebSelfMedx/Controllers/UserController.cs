@@ -54,6 +54,39 @@ namespace WebSelfMedx.Controllers
             return RedirectToAction ("Index");
         }
 
-      
+        [HttpGet]
+        [Route("User/Edit/{id}")]
+        public IActionResult Edit(int id)
+        {
+            SelfmedixContext _context = new SelfmedixContext();
+            return View(_context.Usuarios.Find(id));
+        }
+
+
+
+        [HttpPost]
+        public IActionResult Edit(Usuario usuario)
+        {
+
+            SelfmedixContext _context = new SelfmedixContext();
+            Usuario newUsuario = new Usuario
+            {
+
+                Nombres = usuario.Nombres,
+                Apellidos = usuario.Apellidos,
+                Correo = usuario.Correo,
+                Contrasenia = usuario.Contrasenia,
+                FechaNacimiento = usuario.FechaNacimiento,
+                FechaCreacion = DateTime.Now,
+
+            };
+            _context.Usuarios.Update(newUsuario);
+            _context.SaveChanges();
+
+            return View();
+        }
+
+
+
     }
 }

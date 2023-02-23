@@ -20,6 +20,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50aWRhZE1lZGljYVxDcmVhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/jorge/Escritorio/URL/Primer Ciclo 2023/Progra Web/Proyecto/SelfMedx/WebSelfMedx/Views/EntidadMedica/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50aWRhZE1lZGljYVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/jorge/Escritorio/URL/Primer Ciclo 2023/Progra Web/Proyecto/SelfMedx/WebSelfMedx/Views/EntidadMedica/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50aWRhZE1lZGljYVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -42,6 +46,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/jorge/Escritorio/URL/Primer Ciclo 2023/Progra Web/Proyecto/SelfMedx/WebSelfMedx/Views/User/Crear.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDcmVhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jorge/Escritorio/URL/Primer Ciclo 2023/Progra Web/Proyecto/SelfMedx/WebSelfMedx/Views/User/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/jorge/Escritorio/URL/Primer Ciclo 2023/Progra Web/Proyecto/SelfMedx/WebSelfMedx/Views/User/Index.cshtml]

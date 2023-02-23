@@ -45,6 +45,34 @@ namespace WebSelfMedx.Controllers
             return RedirectToAction("Index");
         }
 
+        [HttpGet]
+        [Route("EntidadMedica/Edit/{id}")]
+        public IActionResult Edit(int id)
+        {
+            SelfmedixContext _context = new SelfmedixContext();
+            return View(_context.Entidadmedicas.Find(id));
+        }
+
+
+
+        [HttpPost]
+        public IActionResult Edit(Entidadmedica entidad)
+        {
+
+            SelfmedixContext _context = new SelfmedixContext();
+            Entidadmedica newEntidad = new Entidadmedica
+            {
+                Id = entidad.Id,
+                Nombre = entidad.Nombre,
+                Direccion = entidad.Direccion
+            };
+            _context.Entidadmedicas.Update(newEntidad);
+            _context.SaveChanges();
+
+            return View();
+        }
+
+
 
     }
 }
